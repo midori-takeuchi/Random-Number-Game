@@ -7,7 +7,7 @@ public class RandomNumber {
 
     static int random() {
         return (int)(Math.random() * 100);
-    }
+    } 
     static void begin_game() {
         int random_number = random();
         Scanner in = new Scanner(System.in);
